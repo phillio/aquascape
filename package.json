@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/phillio/aquascape/issues"
   },
-  "homepage": "https://github.com/phillio/aquascape#readme"
+  "homepage": "https://github.com/phillio/aquascape#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
