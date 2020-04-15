@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db:init": "dropdb --if-exists aquascape_db && createdb aquascape_db",
+    "db:reset": "node ./scripts/resetDb.js",
+    "db:seed": "node ./scripts/seedDb.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
