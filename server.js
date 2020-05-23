@@ -31,7 +31,7 @@ app.use(passport.initialize())
 
 app.get('/', async (request, response) => {
   try {
-    response.json({message: 'Welcome to Aquascape!'})
+    response.json({message: 'Welcome to AQS!'})
   } catch (e) {
     response.status(e.status).json({ message: e.status })
   }
